@@ -7,11 +7,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/sobre" element={<Sobre></Sobre>}></Route>
+        <Route exact path="/" element={<Home></Home>}></Route>
       </Routes>
     </Router>
   );
 }
 
-export default02 App;
+export default App;
